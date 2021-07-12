@@ -1,0 +1,21 @@
+{
+  "name": "week7",
+  "version": "1.0.0",
+  "description": "eyyo",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "demo"
+  },
+  "keywords": [
+    "eyyo"
+  ],
+  "author": "demo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

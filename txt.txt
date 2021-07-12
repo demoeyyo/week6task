@@ -1,0 +1,48 @@
+ follow come package.json file details
+ {
+  "name": "week7",
+  "version": "1.0.0",
+  "description": "eyyo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "demo"
+  },
+  "keywords": [
+    "eyyo"
+  ],
+  "author": "demo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
+
+
+how to make it run in d nodemon way will look like details
+{
+  "name": "week7",
+  "version": "1.0.0",
+  "description": "eyyo",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "demo"
+  },
+  "keywords": [
+    "eyyo"
+  ],
+  "author": "demo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
+
+after that u run it ur terminal as: npm run dev
