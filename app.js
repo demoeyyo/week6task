@@ -5,19 +5,19 @@
 
 const express = require('express')
 const app = express()
-const port = 3000
+const port = 7000
 
-const friends = require ("./models/friendlist")
+const friends = require ("./models/products")
 
 
 app.get('/', (req, res) => {
     res.send(friends)
 })
 
-app.get('/friends', (req, res, next) => {
-    res.json(friends)
-    next();
-})
+// app.get('/friends', (req, res, next) => {
+//     res.json(friends)
+//     next();
+// })
 
 app.post('/friends', (req, res, next) => {
    friends.push ({
